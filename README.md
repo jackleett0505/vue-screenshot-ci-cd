@@ -1,5 +1,7 @@
 # vue-screenshot-ci-cd
 
+
+
 ## Project setup
 ```
 npm install
@@ -18,6 +20,11 @@ npm run build
 ### Lints and fixes files
 ```
 npm run lint
+```
+
+### Test
+```
+npm test
 ```
 
 ### Customize configuration
