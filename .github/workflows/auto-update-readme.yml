@@ -30,3 +30,6 @@ jobs:
     - run: git remote -v
     - run: git branch
     - run: git status
+    - run: git add .
+    - run: git commit -m "ci-cd-update"
+    - run: git push -u origin main
