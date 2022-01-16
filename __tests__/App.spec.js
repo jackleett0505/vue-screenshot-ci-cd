@@ -21,6 +21,9 @@ describe('screenshot test', () => {
       fullPage: true
     });
   
-    expect(image).toMatchImageSnapshot();
+    expect(image).toMatchImageSnapshot({
+      failureThreshold: 0.001,
+      failureThresholdType: 'percent'
+    });
   }, 180000)
 })
