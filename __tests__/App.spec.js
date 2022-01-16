@@ -4,8 +4,8 @@ expect.extend({ toMatchImageSnapshot });
 const puppeteer = require("puppeteer");
 
 it('renders correctly', async () => {
-  const browser = await puppeteer.launch()
-  const page = await browser.newPage()
+  const browser = await puppeteer.launch();
+  const page = await browser.newPage();
 
   // set the size of the viewport, so our screenshot will have the desired size
   await page.setViewport({
