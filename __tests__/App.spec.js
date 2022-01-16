@@ -15,7 +15,10 @@ it('renders correctly', async () => {
 
   await page.goto('http://localhost:8080/')
 
-  const image = await page.screenshot();
+  const image = await page.screenshot({
+    path: "homepage.png",
+    fullPage: true
+  });
 
   expect(image).toMatchImageSnapshot();
 });
