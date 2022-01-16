@@ -1,5 +1,5 @@
 # vue-screenshot-ci-cd
-![wonderful](https://github.com/jackleett0505/vue-screenshot-ci-cd/blob/main/homepage.png)
+![wonderful](https://github.com/jackleett0505/vue-screenshot-ci-cd/blob/main/__tests__/__image_snapshots__/app-spec-js-screenshot-test-renders-correctly-1-snap.png)
 
 ## Project setup
 ```
